@@ -1,4 +1,4 @@
-FROM kindest/node:v1.23.0
+FROM kindest/node:v1.22.4
 
 RUN echo "Installing Packages ..." \
     && DEBIAN_FRONTEND=noninteractive clean-install \
